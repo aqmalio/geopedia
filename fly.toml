@@ -19,12 +19,6 @@ console_command = "php /var/www/html/artisan tinker"
   LOG_STDERR_FORMATTER = "Monolog\\Formatter\\JsonFormatter"
   SESSION_DRIVER = "cookie"
   SESSION_SECURE_COOKIE = "true"
-  DB_CONNECTION="mysql"
-  DB_HOST="103.30.147.28"
-  DB_PORT="3306"
-  DB_DATABASE="dokterb6_geopedia"
-  DB_USERNAME="dokterb6_root"
-  DB_PASSWORD="T&QAG(bYk2=3"
 
 [http_service]
   internal_port = 8080
